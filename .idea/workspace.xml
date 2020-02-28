@@ -2,58 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="597bd5e7-5e31-42d1-8d84-331dbdbcb09e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/concurrent/Searches.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/concurrent/collections/ConcArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/concurrent/collections/ConcDualList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/concurrent/collections/ConcDualMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/concurrent/collections/ConcGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/concurrent/collections/ConcHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/concurrent/collections/ConcLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/concurrent/collections/ConcPriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/concurrent/collections/ConcQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/concurrent/collections/ConcTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/concurrent/control/Channel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/concurrent/control/Monitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/concurrent/control/Mutex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/concurrent/control/Semaphore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/concurrent/organizer/Organizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/concurrent/organizer/Viewer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/concurrent/threads/EternalThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/concurrent/threads/GenericThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/concurrent/threads/InterruptThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/concurrent/threads/MinionThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/concurrent/threads/PriorityThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/concurrent/threads/SystemThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/doc_storage/FileAccessoryFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/doc_storage/JSONFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/doc_storage/TextFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/doc_storage/XMLFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/Searches.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/Sorts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/DualList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/DualMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/HashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/PriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Vertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/NeuralNet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/StateAutomata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/StateMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/TuringMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/misc/GraphCompleter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/misc/MachineDeterminator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/misc/RandomGen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/network/ReceiveGram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/network/ReceiveStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/network/SendGram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/network/SendStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/DualList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/DualList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/DualMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/DualMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/HashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/HashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/PriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Element.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Vertex.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,433 +31,74 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/doc_storage/XMLFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/doc_storage/JSONFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/doc_storage/TextFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/doc_storage/FileAccessoryFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/network/SendStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/network/ReceiveStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/network/SendGram.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/network/ReceiveGram.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/Searches.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/Sorts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/HashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/Queue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/PriorityQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/Tree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/Graph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/DualList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/DualMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Element.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Vertex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="153">
+              <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+              <folding>
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Connection.java">
+        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Edge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Action.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/StateMachine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/StateAutomata.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/TuringMachine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/NeuralNet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/misc/GraphCompleter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/misc/MachineDeterminator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/misc/RandomGen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/concurrent/Searches.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/concurrent/collections/ConcDualList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/concurrent/collections/ConcGraph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/concurrent/collections/ConcPriorityQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/concurrent/collections/ConcQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/concurrent/collections/ConcTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/concurrent/control/Mutex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/concurrent/control/Semaphore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/concurrent/control/Monitor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/concurrent/control/Channel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/concurrent/organizer/Organizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/concurrent/organizer/Viewer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/concurrent/threads/GenericThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/concurrent/threads/SystemThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/concurrent/threads/InterruptThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/concurrent/threads/EternalThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/concurrent/threads/PriorityThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            <state relative-caret-position="850">
+              <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+              <folding>
+                <element signature="e#514#515#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#755#756#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/concurrent/threads/MinionThread.java">
+        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="241">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#445#457#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#1087#1088#0" expanded="true" />
+                <element signature="e#1099#1100#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#873#885#0" expanded="true" />
+                <element signature="e#1424#1433#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -521,13 +125,18 @@
         <option value="$PROJECT_DIR$/src/com/avrisnox/concurrent/collections/ConcPriorityQueue.java" />
         <option value="$PROJECT_DIR$/src/com/avrisnox/concurrent/collections/ConcQueue.java" />
         <option value="$PROJECT_DIR$/src/com/avrisnox/concurrent/collections/ConcTree.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+        <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Element.java" />
+        <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/ArrayList.java" />
+        <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/HashMap.java" />
+        <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/PriorityQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/Queue.java" />
+        <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/Tree.java" />
+        <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/Graph.java" />
+        <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/DualMap.java" />
+        <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/DualList.java" />
+        <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Vertex.java" />
+        <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Edge.java" />
+        <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/LinkedList.java" />
       </list>
     </option>
   </component>
@@ -575,7 +184,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="avrisnox" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Multilib" type="b2602c69:ProjectViewProjectNode" />
@@ -584,6 +193,27 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="avrisnox" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multilib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multilib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="avrisnox" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multilib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multilib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="avrisnox" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -615,6 +245,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.avrisnox.util.graph.collections.LinkedList" />
+      <module name="Multilib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.avrisnox.util.graph.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LinkedList" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="597bd5e7-5e31-42d1-8d84-331dbdbcb09e" name="Default Changelist" comment="" />
@@ -633,14 +283,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -726,94 +377,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/DualList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/DualMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Element.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/components/ComparableElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Vertex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -996,6 +563,136 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/DualList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/DualMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+          <folding>
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/collections/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#445#457#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#873#885#0" expanded="true" />
+            <element signature="e#1424#1433#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

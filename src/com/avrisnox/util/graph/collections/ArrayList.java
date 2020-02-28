@@ -1,4 +1,4 @@
 package com.avrisnox.util.graph.collections;
 
-public class ArrayList {
+public class ArrayList<T> {
 }

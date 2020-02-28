@@ -1,4 +1,4 @@
 package com.avrisnox.util.graph.collections;
 
-public class HashMap {
+public class HashMap<K, V> {
 }

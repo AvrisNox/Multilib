@@ -1,4 +1,4 @@
 package com.avrisnox.util.graph.collections;
 
-public class Tree {
+public class Tree<T> {
 }

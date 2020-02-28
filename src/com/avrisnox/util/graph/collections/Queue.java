@@ -1,4 +1,4 @@
 package com.avrisnox.util.graph.collections;
 
-public class Queue {
+public class Queue<T> {
 }
