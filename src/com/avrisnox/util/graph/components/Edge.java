@@ -1,4 +1,4 @@
 package com.avrisnox.util.graph.components;
 
-public class Element {
+public class Edge<E> {
 }
