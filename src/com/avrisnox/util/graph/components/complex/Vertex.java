@@ -2,6 +2,14 @@ package com.avrisnox.util.graph.components.complex;
 
 import java.util.LinkedList;
 
+/**Vertex
+ * Classifies a complex vertex component.
+ * @param <VP> The type for the vertex BEFORE this vertex
+ * @param <EP> The type for the edge INTO this vertex
+ * @param <V> The type of this vertex
+ * @param <EN> The type for the edge OUT OF this vertex
+ * @param <VN> The type for the vertex AFTER this vertex
+ */
 public class Vertex<VP, EP, V, EN, VN> {
 	private V content;
 	private LinkedList<Edge<?, VP, EP, V, EN>> prev;

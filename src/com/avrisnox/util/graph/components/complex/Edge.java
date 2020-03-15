@@ -2,6 +2,14 @@ package com.avrisnox.util.graph.components.complex;
 
 import java.util.LinkedList;
 
+/**Edge
+ * Classifies a complex edge component.
+ * @param <EP> The type for the edge BEFORE this edge
+ * @param <VP> The type for the vertex this edge is FROM
+ * @param <E> The type of this edge
+ * @param <VN> The type for the vertex this edge is TO
+ * @param <EN> The type for the edge AFTER this edge
+ */
 public class Edge<EP, VP, E, VN, EN> {
 	private E content;
 	private LinkedList<Vertex<?, EP, VP, E, VN>> in;
