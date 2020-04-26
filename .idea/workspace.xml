@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="597bd5e7-5e31-42d1-8d84-331dbdbcb09e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/neuralnet/NeuralNet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/neuralnet/components/AbsGateFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/neuralnet/components/DebugLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/neuralnet/components/GateFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/neuralnet/components/staticgates/SigmoidGate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/statemachine/components/Evaluator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/complex/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/complex/Edge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/complex/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/complex/Vertex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/NeuralNet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/NeuralNet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/NeuralNet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/StateAutomata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/StateMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/statemachine/StateMachine.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,20 +26,41 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/NeuralNet.java">
+        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/statemachine/StateMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="813">
-              <caret line="84" column="89" selection-start-line="84" selection-start-column="89" selection-end-line="84" selection-end-column="89" />
+            <state relative-caret-position="796">
+              <caret line="245" column="1" selection-start-line="245" selection-start-column="1" selection-end-line="245" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#1572#1588#0" expanded="true" />
-                <element signature="e#2461#2462#0" expanded="true" />
-                <element signature="e#2540#2541#0" expanded="true" />
+                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#1038#1039#0" expanded="true" />
+                <element signature="e#1059#1060#0" expanded="true" />
+                <element signature="e#1347#1348#0" expanded="true" />
+                <element signature="e#1368#1369#0" expanded="true" />
+                <element signature="e#3235#3236#0" expanded="true" />
+                <element signature="e#3265#3266#0" expanded="true" />
+                <element signature="e#7028#7029#0" expanded="true" />
+                <element signature="e#7056#7057#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/components/simple/Vertex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/statemachine/components/Evaluator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -43,12 +70,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Singleton" />
-        <option value="Interface" />
         <option value="package-info" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>? extends Evaluator&lt;Action&gt;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Evaluator&lt;Action&gt;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,7 +120,6 @@
         <option value="$PROJECT_DIR$/src/com/avrisnox/util/doc_storage/interfaces/Refactor.java" />
         <option value="$PROJECT_DIR$/src/com/avrisnox/util/doc_storage/FileFactory.java" />
         <option value="$PROJECT_DIR$/src/com/avrisnox/util/doc_storage/FileAccessoryFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Vertex.java" />
         <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Edge.java" />
         <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/middle/Edge.java" />
         <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/simple/Edge.java" />
@@ -94,13 +129,22 @@
         <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/complex/package-info.java" />
         <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/complex/Vertex.java" />
         <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/complex/Edge.java" />
+        <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/NeuralNetComponents/DebugLevel.java" />
+        <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/NeuralNetComponents/GateFunction.java" />
+        <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/NeuralNetComponents/AbsGateFunction.java" />
+        <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/neuralnetcomponents/staticgates/SigmoidGate.java" />
+        <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/neuralnetcomponents/AbsGateFunction.java" />
         <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/NeuralNet.java" />
+        <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/StateAutomata.java" />
+        <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/statemachine/components/Evaluator.java" />
+        <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Vertex.java" />
+        <option value="$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/statemachine/StateMachine.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="689" />
-    <option name="y" value="-14" />
+    <option name="x" value="554" />
+    <option name="y" value="111" />
     <option name="width" value="974" />
     <option name="height" value="1087" />
   </component>
@@ -112,8 +156,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,7 +217,7 @@
               <item name="util" type="462c0819:PsiDirectoryNode" />
               <item name="graph" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="middle" type="462c0819:PsiDirectoryNode" />
+              <item name="simple" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Multilib" type="b2602c69:ProjectViewProjectNode" />
@@ -187,10 +229,35 @@
               <item name="graph" type="462c0819:PsiDirectoryNode" />
               <item name="machines" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Multilib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multilib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="avrisnox" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
+              <item name="machines" type="462c0819:PsiDirectoryNode" />
+              <item name="statemachine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multilib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multilib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="avrisnox" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
+              <item name="machines" type="462c0819:PsiDirectoryNode" />
+              <item name="statemachine" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,11 +300,11 @@
       </method>
     </configuration>
     <configuration name="NeuralNet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.avrisnox.util.graph.machines.NeuralNet" />
+      <option name="MAIN_CLASS_NAME" value="com.avrisnox.util.graph.machines.neuralnet.NeuralNet" />
       <module name="Multilib" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.avrisnox.util.graph.machines.*" />
+          <option name="PATTERN" value="com.avrisnox.util.graph.machines.neuralnet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,7 +332,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2782516" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.120469086" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -294,62 +361,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/StateAutomata.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/TuringMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/misc/GraphCompleter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/misc/MachineDeterminator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/misc/RandomGen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/concurrent/Searches.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/concurrent/collections/ConcDualList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/concurrent/collections/ConcGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/avrisnox/concurrent/collections/ConcPriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -542,24 +553,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/components/middle/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/components/complex/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/components/simple/Edge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="117" column="59" selection-start-line="117" selection-start-column="59" selection-end-line="117" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -571,13 +568,6 @@
             <element signature="e#1800#1801#0" expanded="true" />
             <element signature="e#1825#1826#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/components/simple/Vertex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -617,9 +607,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/neuralnet/components/GateFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/neuralnet/components/DebugLevel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/neuralnet/components/staticgates/SigmoidGate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding>
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/neuralnet/components/AbsGateFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/neuralnet/NeuralNet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/StateAutomata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/components/middle/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/components/simple/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1771">
+          <caret line="117" column="59" selection-start-line="117" selection-start-column="59" selection-end-line="117" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/components/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/statemachine/components/Evaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/components/middle/Vertex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-335">
+        <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
             <element signature="e#1197#1198#0" expanded="true" />
@@ -628,19 +709,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/NeuralNet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/components/simple/Vertex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="813">
-          <caret line="84" column="89" selection-start-line="84" selection-start-column="89" selection-end-line="84" selection-end-column="89" />
+        <state relative-caret-position="714">
+          <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/avrisnox/util/graph/machines/statemachine/StateMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="245" column="1" selection-start-line="245" selection-start-column="1" selection-end-line="245" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#1572#1588#0" expanded="true" />
-            <element signature="e#2461#2462#0" expanded="true" />
-            <element signature="e#2540#2541#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1368#1369#0" expanded="true" />
+            <element signature="e#3235#3236#0" expanded="true" />
+            <element signature="e#3265#3266#0" expanded="true" />
+            <element signature="e#7028#7029#0" expanded="true" />
+            <element signature="e#7056#7057#0" expanded="true" />
           </folding>
         </state>
       </provider>
