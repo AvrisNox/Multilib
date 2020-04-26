@@ -1,4 +1,4 @@
-package com.avrisnox.util.graph.machines.neuralnetcomponents;
+package com.avrisnox.util.graph.machines.neuralnet.components;
 
 public abstract class AbsGateFunction {
 	public double modInput(double content) {

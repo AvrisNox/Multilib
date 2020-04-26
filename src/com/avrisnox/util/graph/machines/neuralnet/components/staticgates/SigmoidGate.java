@@ -1,6 +1,6 @@
-package com.avrisnox.util.graph.machines.neuralnetcomponents.staticgates;
+package com.avrisnox.util.graph.machines.neuralnet.components.staticgates;
 
-import com.avrisnox.util.graph.machines.neuralnetcomponents.AbsGateFunction;
+import com.avrisnox.util.graph.machines.neuralnet.components.AbsGateFunction;
 
 public class SigmoidGate extends AbsGateFunction {
 	@Override

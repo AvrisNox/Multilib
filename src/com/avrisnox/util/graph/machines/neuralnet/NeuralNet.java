@@ -1,11 +1,11 @@
-package com.avrisnox.util.graph.machines;
+package com.avrisnox.util.graph.machines.neuralnet;
 
 import com.avrisnox.util.graph.components.middle.Edge;
 import com.avrisnox.util.graph.components.middle.Vertex;
-import com.avrisnox.util.graph.machines.neuralnetcomponents.AbsGateFunction;
-import com.avrisnox.util.graph.machines.neuralnetcomponents.DebugLevel;
-import com.avrisnox.util.graph.machines.neuralnetcomponents.GateFunction;
-import com.avrisnox.util.graph.machines.neuralnetcomponents.staticgates.SigmoidGate;
+import com.avrisnox.util.graph.machines.neuralnet.components.AbsGateFunction;
+import com.avrisnox.util.graph.machines.neuralnet.components.DebugLevel;
+import com.avrisnox.util.graph.machines.neuralnet.components.GateFunction;
+import com.avrisnox.util.graph.machines.neuralnet.components.staticgates.SigmoidGate;
 
 import java.util.Iterator;
 import java.util.LinkedList;
